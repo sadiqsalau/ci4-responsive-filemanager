@@ -1,0 +1,3 @@
+RewriteEngine On
+
+RewriteRule ^filemanager/[a-z_]+\.php$ index.php [L,NC,QSA]
